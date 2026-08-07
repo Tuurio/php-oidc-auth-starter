@@ -1,0 +1,18 @@
+# Tuurio Auth Studio — Root-level rewrite rules.
+#
+# Supports deployments where the whole package is web-accessible instead of
+# pointing Apache's DocumentRoot directly at public/.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Block access to dotfiles (.env, .htaccess, .installed, etc.)
+    RewriteRule (^|/)\. - [F,L]
+
+    # Block direct access to source code and internal files
+    RewriteRule ^src/ - [F,L]
+    RewriteRule ^router\.php$ - [F,L]
+
+    # Forward everything else to the public front controller
+    RewriteRule ^ public/index.php [L,QSA]
+</IfModule>

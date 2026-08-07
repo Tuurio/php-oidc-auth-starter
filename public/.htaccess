@@ -1,0 +1,14 @@
+# Front Controller – route all non-file requests to index.php.
+# Standard pattern used by Laravel, Symfony, WordPress, etc.
+# Works in webroot and subdirectory deployments.
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Serve existing files directly (CSS, JS, images, etc.)
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # Everything else goes through the front controller
+    RewriteRule ^ index.php [L]
+</IfModule>

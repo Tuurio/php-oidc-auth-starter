@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "sourceRepository": "Tuurio/auth_samples",
+  "sourcePath": "auth_samples_php",
+  "sourceSha": "b7582d09518ce261a97ce8daaaf52a636b4eb60f",
+  "templateId": "php",
+  "managedFiles": [
+    {
+      "path": ".env.example",
+      "sha256": "03e72ea202d9b62f5ecbdfbf3f8c2c1a545ece0775311d41ac5d74052f928205"
+    },
+    {
+      "path": ".github/workflows/verify.yml",
+      "sha256": "8f6e3593dd35e7ecc3aee9a2b3a4092bcdacb47924635f8c36b624d4e6f29253"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "1135073446da6634f0dfc44d15ed64f2aace68aade6db8436e7936c42bb9223c"
+    },
+    {
+      "path": ".htaccess",
+      "sha256": "b036631017582c8e975c9905d402fe284275a2d6808f13705a186b5f9896f98d"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "744a467c1dea07098a921b7e67f2f1a3dbe327ed78c6d9554a99da197714e259"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+    },
+    {
+      "path": "README.md",
+      "sha256": "8f4154e28efad69ae91349eceffc433835e9bd151958bd8771995d19929ab8c4"
+    },
+    {
+      "path": "public/.htaccess",
+      "sha256": "8ff58b3e27ff40016fd4e005fa5e0b49ea6314296c73ddda0900b7ee4fad6bd7"
+    },
+    {
+      "path": "public/404.php",
+      "sha256": "43330967cc34a18af22b14cf90f8e9bbfdcb5e016ee8d1ca6c839fcd1f762fa3"
+    },
+    {
+      "path": "public/assets/app.css",
+      "sha256": "6dfa0acc3b8068868f840fe2d479c202edefe5e16aa9bf09fb2396afa59913e6"
+    },
+    {
+      "path": "public/assets/favicon.svg",
+      "sha256": "4150ed3f52dcf0d3dd7e479c76f83354b268f27f9fa2422d9d217ee51e3805dd"
+    },
+    {
+      "path": "public/auth/callback/index.php",
+      "sha256": "66df7b3075df66e55840d4a2df8cbc4464a742490e101472f97ef0219a47c21f"
+    },
+    {
+      "path": "public/home.php",
+      "sha256": "d18bac42a9cec1910d9fe4941b2a144595dd5ebb433a45f047fa2a227138682b"
+    },
+    {
+      "path": "public/index.php",
+      "sha256": "a80c9d77ca6fea4c5d8baefc447d9d7f757bb289efeb92c5cbeb9089157a2726"
+    },
+    {
+      "path": "public/login.php",
+      "sha256": "140f43643f87461fbf4b549e4c1e1935450809577d7a13189f35c59e534e1422"
+    },
+    {
+      "path": "public/logout/callback/index.php",
+      "sha256": "40d9e276c593fac9764b78c064563dad2eb91123f09ee9c50e5d66a97c62ae7d"
+    },
+    {
+      "path": "public/logout.php",
+      "sha256": "2bce1c3ff708b05eb1f3b0fcffbca0d127d1081505ae62abe9d7ac4f8a3edf8a"
+    },
+    {
+      "path": "public/webhook.php",
+      "sha256": "906fb5e631f6d7587843e84757ad8219b3819f8a72047975cb004bdcf2b1d651"
+    },
+    {
+      "path": "router.php",
+      "sha256": "57e775dbe49a0fca2ae4cf48a8f9b71531ae70cfdc73721816c4da97ea2a60d5"
+    },
+    {
+      "path": "src/config.php",
+      "sha256": "a7cfb31c92f9762298f69099feec44db301d920048ec59a2bc3f1156838d8b4c"
+    },
+    {
+      "path": "src/env.php",
+      "sha256": "bf599153e719df9025662075678c7d28d98d73c5c53ca393117efc77a0e46ace"
+    },
+    {
+      "path": "src/helpers.php",
+      "sha256": "639dfe576cd871aab8b4af405258ceabb5c5e8604807579b2dc3c4aa0f35bcd4"
+    },
+    {
+      "path": "src/oauth.php",
+      "sha256": "d4b49d83abaea7747ae95d48c7ce9939d663d508595a4465ecff799e593b12d4"
+    },
+    {
+      "path": "src/view.php",
+      "sha256": "ff42b6461bc9bd2ed3cef931fdc5b2b78591ecddce4b2c22fd6187fddab7efb6"
+    }
+  ]
+}
