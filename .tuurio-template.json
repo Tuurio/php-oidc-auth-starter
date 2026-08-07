@@ -1,8 +1,9 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "sourceRepository": "Tuurio/auth_samples",
   "sourcePath": "auth_samples_php",
-  "sourceSha": "4230326da150f8a40dd45ecfa20bf3f556743d0e",
+  "sourceSha": "6833b4a83ac9aaa09f289f5de9d02aa1fa053e7d",
+  "packageSha256": "a56f1288cc1b834c8f37eb1879c91e589c9abaf5a3f1fc4345c56de0ad383cac",
   "templateId": "php",
   "managedFiles": [
     {
