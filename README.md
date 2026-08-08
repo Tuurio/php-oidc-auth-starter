@@ -4,6 +4,8 @@ Dependency-light PHP authentication starter for Tuurio ID with secure sessions a
 
 [![Verify template](https://github.com/Tuurio/php-oidc-auth-starter/actions/workflows/verify.yml/badge.svg)](https://github.com/Tuurio/php-oidc-auth-starter/actions/workflows/verify.yml)
 
+![PHP OIDC Auth Starter social preview](.github/social-preview.png)
+
 > Generated from [`Tuurio/auth_samples/auth_samples_php`](https://github.com/Tuurio/auth_samples/tree/main/auth_samples_php). Submit implementation fixes upstream so they are not replaced by the next synchronized release.
 
 ## What you get

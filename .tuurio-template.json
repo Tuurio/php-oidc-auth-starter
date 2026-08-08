@@ -2,13 +2,21 @@
   "schemaVersion": 2,
   "sourceRepository": "Tuurio/auth_samples",
   "sourcePath": "auth_samples_php",
-  "sourceSha": "fd87414e420b10fc0ca59d5552595d1b51be6230",
-  "packageSha256": "d6cde1eb4d29b1b942c690bb28270d5ceff546373b52af3e308c29d62446b32a",
+  "sourceSha": "ee751281bb9cedc2d269c3e21e6e0d544cf2cbf8",
+  "packageSha256": "82f05a62d67863a4ba3f8cd16bcd82fb4423a7d53a35290fa40d7477018aefe9",
   "templateId": "php",
   "managedFiles": [
     {
       "path": ".env.example",
       "sha256": "03e72ea202d9b62f5ecbdfbf3f8c2c1a545ece0775311d41ac5d74052f928205"
+    },
+    {
+      "path": ".github/social-preview.png",
+      "sha256": "728bdbee76b8afdf4a8b249551a749f0377c0202d77e3ede0d127ccc9b086bd8"
+    },
+    {
+      "path": ".github/social-preview.svg",
+      "sha256": "40dc0517382aa888cc0f722f4f22825274e8172041e4b83110d072abb16b07b6"
     },
     {
       "path": ".github/workflows/verify.yml",
@@ -32,7 +40,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "8f4154e28efad69ae91349eceffc433835e9bd151958bd8771995d19929ab8c4"
+      "sha256": "831704ad47d258b2a7dca6e4050ba264560290d31a47b250916ee3b727ce063a"
     },
     {
       "path": "public/.htaccess",
