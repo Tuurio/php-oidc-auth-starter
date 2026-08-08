@@ -69,8 +69,8 @@ try {
 
     header('Location: ' . url('/'), true, 302);
     exit;
-} catch (Throwable $exception) {
-    $_SESSION['error'] = $exception->getMessage();
+} catch (Throwable) {
+    $_SESSION['error'] = 'Login could not be completed.';
     header('Location: ' . url('/'), true, 302);
     exit;
 }

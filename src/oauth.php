@@ -72,6 +72,8 @@ function exchange_code_for_tokens(array $config, string $code, string $verifier)
         CURLOPT_POSTFIELDS => $payload,
         CURLOPT_HTTPHEADER => ['Content-Type: application/x-www-form-urlencoded'],
         CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_CONNECTTIMEOUT => 5,
+        CURLOPT_TIMEOUT => 10,
     ];
 
     if ($curlOptions) {
@@ -82,15 +84,14 @@ function exchange_code_for_tokens(array $config, string $code, string $verifier)
 
     $response = curl_exec($ch);
     $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $error = curl_error($ch);
     curl_close($ch);
 
     if ($response === false) {
-        throw new RuntimeException('Token request failed: ' . $error);
+        throw new RuntimeException('Token request failed.');
     }
 
     if ($status >= 400) {
-        throw new RuntimeException('Token request failed: ' . $response);
+        throw new RuntimeException('Token request failed.');
     }
 
     $data = json_decode($response, true);
@@ -122,19 +123,20 @@ function fetch_userinfo(string $endpoint, string $accessToken): array
     curl_setopt_array($ch, [
         CURLOPT_HTTPHEADER => ["Authorization: Bearer {$accessToken}"],
         CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_CONNECTTIMEOUT => 5,
+        CURLOPT_TIMEOUT => 10,
     ]);
 
     $response = curl_exec($ch);
     $status = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-    $error = curl_error($ch);
     curl_close($ch);
 
     if ($response === false) {
-        throw new RuntimeException('UserInfo request failed: ' . $error);
+        throw new RuntimeException('UserInfo request failed.');
     }
 
     if ($status >= 400) {
-        throw new RuntimeException('UserInfo request failed: ' . $response);
+        throw new RuntimeException('UserInfo request failed.');
     }
 
     $data = json_decode($response, true);

@@ -2,8 +2,8 @@
   "schemaVersion": 2,
   "sourceRepository": "Tuurio/auth_samples",
   "sourcePath": "auth_samples_php",
-  "sourceSha": "6833b4a83ac9aaa09f289f5de9d02aa1fa053e7d",
-  "packageSha256": "a56f1288cc1b834c8f37eb1879c91e589c9abaf5a3f1fc4345c56de0ad383cac",
+  "sourceSha": "fd87414e420b10fc0ca59d5552595d1b51be6230",
+  "packageSha256": "d6cde1eb4d29b1b942c690bb28270d5ceff546373b52af3e308c29d62446b32a",
   "templateId": "php",
   "managedFiles": [
     {
@@ -52,7 +52,7 @@
     },
     {
       "path": "public/auth/callback/index.php",
-      "sha256": "66df7b3075df66e55840d4a2df8cbc4464a742490e101472f97ef0219a47c21f"
+      "sha256": "02360abe222d6244ff1cb8404825137aaa91b338cc0c4ba11034d3c750964750"
     },
     {
       "path": "public/home.php",
@@ -96,7 +96,7 @@
     },
     {
       "path": "src/oauth.php",
-      "sha256": "d4b49d83abaea7747ae95d48c7ce9939d663d508595a4465ecff799e593b12d4"
+      "sha256": "306ecc0948e5a19569558cb0bf96fb1e68e5c57491a3ae01af708d83c8cef724"
     },
     {
       "path": "src/view.php",
